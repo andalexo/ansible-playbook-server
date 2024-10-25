@@ -2,8 +2,14 @@
 An ansible playbook for setting up servers.
 
 ## Roadmap
-- Services
+- System Installs
+  - ansible
+  - git
   - nginx
+  - certbot
+  - podman
+
+- Services
   - keycloak [{idp|iam}.company.com]
   - Gitlab [{git|cvs}.company.com]
   - Mattermost [{mm|chat}.company.com]
@@ -23,7 +29,7 @@ An ansible playbook for setting up servers.
 - SysMon [hostname.company.com/]
   - portainer [/portainer]
   - rancher [/rancher]
-  - prometheus 
+  - prometheus
   - grafana [/dashboard]
   - cAdvisor
   - node-exporter
